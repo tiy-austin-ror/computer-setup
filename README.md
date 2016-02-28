@@ -52,8 +52,9 @@ To make sure your computer is ready for day 1 of class we will need to download 
    - Once it has completed. Restart your terminal once more and type `ruby -v` and check the version. It should be `2.3.0`.
  6. Setting up our dotfiles
    - .zshrc
-   - .vimrc
-   - .rvmrc
-   - .gitrc
-   - .irbrc
-   - .pryrc
+```sh
+export PATH=~/bin:$PATH # Add local bin directory
+export PATH="$HOME/.rvm/bin:$PATH" # Add RVM to PATH for scripting
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+```
+  - .gemrc `gem: --no-rdoc --no-ri`
