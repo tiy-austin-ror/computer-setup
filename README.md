@@ -65,7 +65,7 @@ To make sure your computer is ready for day 1 of class we will need to download 
  6. Setting up our dotfiles
    - To set up our 'dotfiles' we are going to need to be able to open text documents from our editor. Lets make sure we can do that, by opening up Atom and going to the "Atom" menu at the top and clicking "Install Shell Commmands". This allows you to open files from the terminal by saying `atom NAME_OF_FILE`.
    - First we need to make some changes to our `.zshrc` file. Its a big file, but we only need to make a few minor tweeks.
-   - Find the line in the file that says `ZSH_THEME`, its towards the top. Replace it with this line: `ZSH_THEME="avit"
+   - Find the line in the file that says `ZSH_THEME`, its towards the top. Replace it with this line: `ZSH_THEME="avit"`
    - At the very bottom of the file, add the following lines. This allows RVM to work with out new fancy terminal.
    - `export PATH=~/bin:$PATH # Add local bin directory`
    - `export PATH="$HOME/.rvm/bin:$PATH" # Add RVM to PATH for scripting`
