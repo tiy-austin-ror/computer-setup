@@ -55,7 +55,8 @@ To make sure your computer is ready for day 1 of class we will need to download 
    - Type `\curl -L https://get.rvm.io | bash -s stable` into your terminal and hit enter.
    - Once the previous command is finished. Quit Iterm and reopen it.
    - Type `rvm | head -n 1` and hit enter. Have your instructor (me) come look at the output to verify it is working.
-   - Type `rvm use ruby-2.3.0 --install --default` into your terminal and hit enter. This is the part that installs the new ruby version. It will take some time.
+   - Type `source ~/.profile` to load the rvm settings. 
+   - Type `rvm use ruby-2.3 --install --default` into your terminal and hit enter. This is the part that installs the new ruby version. It will take some time.
    - Once it has completed. Restart your terminal once more and type `ruby -v` and check the version. It should be `2.3.0`.
  
  6. Installing **OhMyZsh** ("oh-my-zeesh" or "oh-my-Z-shell")
